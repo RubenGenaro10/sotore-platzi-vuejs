@@ -6,7 +6,7 @@ const http = axios.create({
 
 export class StoreApiService{
 
-    getProducts(){
+    getProducts() {
         return http.get("/products");
     }
 
